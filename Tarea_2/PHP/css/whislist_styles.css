@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background-color: #e6f2ff;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.cuerpo {
+
+  display: flex;
+  width: auto;
+  margin: 100px 200px;
+  color: black;
+  padding: 5px;
+  margin-bottom: 40px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.opcion {
+  background-color: white;
+  color: black;
+
+}
+
+.opcion .botones {
+  margin: auto;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+.opcion .botones input[type="submit"] {
+  margin: 0px 3px;
+}
+
+.imagen {
+  margin: auto;
+  color: black;
+  width: 200px;
+  height: auto;
+}

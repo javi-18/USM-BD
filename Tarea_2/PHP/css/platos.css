@@ -1,0 +1,100 @@
+body {
+    background-color: #e6f2ff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*
+
+.pack {
+    background-color: green;
+    display: flex;
+    padding: 10px;
+    margin: 2.5%;
+
+
+}
+*/
+
+.pack {
+
+    display: flex;
+    width: auto;
+    margin: 100px 200px;
+    color: black;
+    padding: 5px;
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+
+}
+.hola {
+    display: flex;
+    width: auto;
+    margin: 100px 200px;
+    color: black;
+    padding: 5px;
+    margin-bottom: 0px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.imagen {
+    display: flex;
+    flex: 1;
+    margin-left: 0;
+    background-color: brown;
+    width: 13%;
+
+}
+
+.info {
+    flex: 3;
+    width: 50%;
+    margin: auto;
+    padding-left: 35px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.info ul {
+    margin: auto;
+}
+
+.info li {
+    font-size: 1.5rem;
+}
+
+
+
+.boton2 {
+    flex: 1;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-right: 10px;
+
+
+}
+
+.boton {
+    display: inline-block;
+    background-color: #0077be;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 90px;
+    text-align: center;
+}

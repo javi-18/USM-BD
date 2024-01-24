@@ -1,0 +1,99 @@
+/* Estilos generales */
+html,
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Estilos para cada opción del carrito */
+.completo {
+    margin: 20px;
+}
+
+.opcion {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.opcion .imagen {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    background-color: #ccc;
+}
+
+.opcion .contenido {
+    flex-grow: 1;
+}
+
+.opcion p {
+    margin: 5px 0;
+}
+
+.opcion .boton {
+    display: flex;
+    align-items: center;
+}
+
+.opcion form {
+    margin: 0;
+}
+
+.opcion input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.resumen-carrito {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.resumen-carrito p {
+    margin: 5px 0;
+}
+
+.resumen-carrito .boton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.descuento {
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 1.2rem;
+}
+
+.final {
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    text-align: right;
+    font-size: 2rem;
+}
+
+footer {
+    height: max-content;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,159 @@
+/* Establece la fuente del cuerpo de la página */
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100%;
+  background-color: #e6f2ff;
+}
+
+/* Añade un borde negro a la clase 'nav-bg' */
+.nav-bg {
+  background-color: #420092;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-bg h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+
+/* Añade un estilo a los enlaces de navegación */
+nav a {
+  display: flexbox;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 20px;
+  box-shadow: 2px 2px 2px black;
+}
+
+nav a:hover {
+  background-color: #cacaca;
+}
+
+.container {
+  display: flex;
+  background-color: #e6f2ff;
+}
+
+.slider-frame {
+  width: 50%;
+  height: auto;
+  margin: 10px 10px;
+  padding: 0;
+  overflow: hidden;
+  flex: 1;
+
+}
+
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+  list-style: none;
+  width: 100%;
+}
+
+.slider-frame img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0%;
+  }
+
+  20% {
+    margin-left: 0%;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -200%;
+  }
+
+  80% {
+    margin-left: -300%;
+  }
+
+  95% {
+    margin-left: -300%;
+  }
+
+}
+
+
+
+
+/* Establece un estilo para la sección de paquetes */
+.pack {
+  flex: 1;
+  display: flex;
+
+  padding: 50px;
+}
+
+/* Establece un estilo para el contenido de paquetes */
+.contenido-pack {
+  margin: auto auto;
+  text-align: center;
+}
+
+/* Añade un estilo a los botones de paquetes */
+.boton {
+  display: inline-block;
+  background-color: #0077be;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.registro {
+  padding: 20px;
+  padding-bottom: 100px;
+  margin-top: 51px;
+  display: flexbox;
+  align-items: center;
+  text-align: center;
+  background-color: #e6f2ff;
+}
+
+.registro a {
+  padding: 10px;
+  display: inline-block;
+  margin: 0 10px;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 5px;
+}

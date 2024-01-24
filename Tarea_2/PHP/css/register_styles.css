@@ -1,0 +1,64 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center; /* para centrar verticalmente */
+    justify-content: center; /* para centrar horizontalmente */
+    height: 100vh; /* para establecer la altura del cuerpo */
+  }
+  
+  
+  form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 50px auto;
+    width: 80%; /* para establecer el ancho del formulario */
+    max-width: 500px; /* para establecer el ancho máximo del formulario */
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold; /* para negrilla */
+    margin-bottom: 10px;
+    text-align: center; /* para centrar */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  

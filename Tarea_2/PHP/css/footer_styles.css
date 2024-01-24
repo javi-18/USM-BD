@@ -1,0 +1,23 @@
+/* styles.css */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    background-color: #420092;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
